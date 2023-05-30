@@ -65,9 +65,7 @@ class ResultScreen extends StatelessWidget {
                                 fit: BoxFit.cover,
                               ),
                             ),
-                            const SizedBox(
-                              height: 15,
-                            ),
+                            const SizedBox(height: 15),
                             Padding(
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 16),
