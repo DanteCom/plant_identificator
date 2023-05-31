@@ -41,9 +41,7 @@ class ScanningScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const Spacer(
-              flex: 5,
-            ),
+            const Spacer(flex: 5),
           ],
         ),
       ),
