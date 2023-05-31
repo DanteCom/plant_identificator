@@ -34,7 +34,9 @@ class ResultScreen extends StatelessWidget {
             const Divider(
               color: Colors.grey,
             ),
-            const SizedBox(height: 55),
+            const SizedBox(
+              height: 55,
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Stack(
