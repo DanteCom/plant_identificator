@@ -148,9 +148,7 @@ class _HistoryTabScreenState extends State<HistoryTabScreen> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Image.asset(
-                                      'assets/animations/history.gif',
-                                      width: 160,
-                                    ),
+                                        'assets/animations/history.gif'),
                                     const Text(
                                       'Results not found',
                                       style: TextStyle(

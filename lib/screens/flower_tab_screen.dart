@@ -14,6 +14,7 @@ class _FlowerTabScreenState extends State<FlowerTabScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SizedBox(
           width: double.infinity,

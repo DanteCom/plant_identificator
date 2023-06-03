@@ -23,6 +23,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         onTap: (int index) {

@@ -6,6 +6,7 @@ class ScanningScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -26,9 +27,12 @@ class ScanningScreen extends StatelessWidget {
             Center(
               child: Column(
                 children: [
-                  Image.asset('assets/animations/Scunning.gif'),
-                  const SizedBox(
-                    height: 10,
+                  Container(
+                    height: 138,
+                    child: Image.asset(
+                      'assets/animations/Scunning.gif',
+                      fit: BoxFit.contain,
+                    ),
                   ),
                   const Text(
                     'Scanning',
