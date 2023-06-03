@@ -26,7 +26,7 @@ class ScanningScreen extends StatelessWidget {
             Center(
               child: Column(
                 children: [
-                  Image.asset('assets/images/Scunning.png'),
+                  Image.asset('assets/animations/Scunning.gif'),
                   const SizedBox(
                     height: 10,
                   ),

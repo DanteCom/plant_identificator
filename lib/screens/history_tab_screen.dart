@@ -147,8 +147,10 @@ class _HistoryTabScreenState extends State<HistoryTabScreen> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Image.asset('assets/images/gifHistory.png'),
-                                    const SizedBox(height: 12),
+                                    Image.asset(
+                                      'assets/animations/history.gif',
+                                      width: 160,
+                                    ),
                                     const Text(
                                       'Results not found',
                                       style: TextStyle(
@@ -181,8 +183,10 @@ class _HistoryTabScreenState extends State<HistoryTabScreen> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Image.asset('assets/images/gifHistory.png'),
-                                    const SizedBox(height: 12),
+                                    Image.asset(
+                                      'assets/animations/history.gif',
+                                      width: 160,
+                                    ),
                                     const Text(
                                       'Results not found',
                                       style: TextStyle(
